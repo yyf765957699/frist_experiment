@@ -7,58 +7,89 @@
 	list-style-type:none;
 	}
 body{
-	background:#B8E7F7;
+	background:url(../images/bbbbbg.png) center top no-repeat #ace7f7;
 }
-#smbg{
-	width:100%;
-	height:1200px;
-	position:absolute;
-	margin:0 auto;
-	background:url(../images/bbbbbg.png);
-	background-position: center top;
-	background-repeat:no-repeat;}
 #top{
-	width:100%;
-	height:60px;
-	margin:0 auto;
-	background:url(../images/bgb1.png) center;
-	position:relative;}
-#top ul{
 	width:1000px;
-	height:60px;
-	margin:0 auto;
+	height:50px;
+	margin:60px auto;
+	background: center;
+	position:relative;
+	}
+#top ul{
+	position: relative;;
 	}
 #top ul li{
 	width:125px;
-	line-height:60px;
+	height: 50px;
+	line-height:50px;
 	text-align:center;
 	float:left;
+	z-index: 10;
+	background:rgba(99,201,200,0.4) ;
 	}
+
 #top ul li a{
-	display:block;
-	font-size:20px;
-	color:#000;}
-#top ul li a:hover{
-	background:url(../images/bgb2.png);}
-#top ul li ul{
-	width:125px;
-	}
-#top ul li ul li{
-	line-height:60px;
-	display:none;
-	float:left;}
-#top ul li:hover ul li{
-	display:block;}	
+	width: 100%;
+	height: 100%;	
+	font-size:16px;
+	color:#000;
+	display: block;
+	z-index: 11; }
 
 
+#top .li1{background:url("../images/yun1.png");}
+#top .li2{background:url("../images/yun2.png");}
+#top .li3{background:url("../images/yun3.png");}
+#top .li4{background:url("../images/yun4.png");}
+#top .li5{background:url("../images/yun5.png");}
+#top .li6{background:url("../images/yun6.png");}
+#top .li7{background:url("../images/yun7.png");}
+#top .li8{background:url("../images/yun8.png");}
 
+.nav_foc{width:100px;
+		 height: 95px;
+		 position:relative;
+		 top: -45px;
+		 left: 1.2%;
+		 border-radius: 5px;
+		 background:url("../images/huiji.png") center top no-repeat ;
+		 background-size: 98px 45px;
+		 z-index: -999;
+		 transition: all 0.4s ease;}
+#top .li2:hover ~ .nav_foc{
+	left: 13.5%;
+	z-index:-999;
+}
 
+#top .li3:hover ~ .nav_foc{
+	left:26%;
+	z-index:-999;
+}
 
-
-
+#top .li4:hover ~ .nav_foc{
+	left:38.6%;
+	z-index:-999;
+}
+#top .li5:hover ~ .nav_foc{
+	left:51.2%;
+	z-index:-999;
+}
+#top .li6:hover ~ .nav_foc{
+	left:63.7%;
+	z-index:-999;
+}
+#top .li7:hover ~ .nav_foc{
+	left:76.3%;
+	z-index:-999;
+}
+#top .li8:hover ~ .nav_foc{
+	left:88.9%;
+	z-index:-999;
+}
 #main{
 	width:1000px;
-	margin:140px auto 0px auto;
+	margin:20px auto 0px auto;
 	height:2000px;
 	position:relative;
 	}	
