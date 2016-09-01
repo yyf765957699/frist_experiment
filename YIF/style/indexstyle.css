@@ -10,8 +10,8 @@ body{
 	background:url(../images/bbbbbg.png) center top no-repeat #ace7f7;
 }
 #top{
+	width:1000px;
 	height:50px;
-	width: 1000px;
 	margin:60px auto;
 	background: center;
 	position:relative;
@@ -249,8 +249,8 @@ body{
     font-family: "宋体";
     font-weight: bold;}
 
-	.gg{ width:245px; height:580px; background:#FFF; margin-top:20px;}
-	.gg img{ width:245px;height:580px;}
+	.gg{ width:245px; height:500px; background:#FFF; margin-top:20px;}
+	.gg{ width:245px;}
 	
 #foot{
 	width:1000px;
