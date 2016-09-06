@@ -1,0 +1,35 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "微软雅黑";
+}
+
+body {
+    background-color: #000;
+    overflow: hidden;
+}
+
+.ig img {
+    width: 350px;
+    border-radius: 20px;
+}
+
+#dlunbo {
+    width: 350px;
+    height: 233px;
+}
+
+.ig {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+
+#con {
+    color: #fff;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    line-height: 35px;
+}
+

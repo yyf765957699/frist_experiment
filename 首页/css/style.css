@@ -1,0 +1,38 @@
+*{margin:0;padding:0;text-decoration:none;font-family:"宋体";}
+.shadow{box-shadow:1px 1px 2px #000;}
+#tong{display:none; width:800px;}
+											/*整体居中*/
+.mian{ width:800px;height:800px;  margin:0px auto;position: relative; transform: scale(0.8);}
+.con{float:left; border-radius:15px; cursor:pointer; box-shadow:2px 2px 5px #000;}
+											/*整体布局*/
+.first{width:520px; height: 260px; background:rgba(0,102,204,0.8); border:0;}
+.second{width:260px; height:520px;background:rgba(255,102,0,0.8);margin-left:20px;border:0;}
+.third{width:260px; height:520px;background:rgba(255,51,51,0.8);margin-top:-240px;}
+.fourth{width:520px; height: 260px;background:rgba(120,186,50,1);margin-left:20px;margin-top:20px;  border:0;}
+.fifth{width:240px; height: 240px;background:rgba(204,204,204,0.8);position:absolute; top:50%; left:50%;margin-top:-120px;margin-left:-120px;}
+														
+											/*个人介绍*/
+.contain{width:500px; height:200px;margin:30 auto;text-align:center; }
+.contain p{color:#fff; font-size:40px;line-height:50px;width:500px; margin-top:80px;}
+.contain span{color:#fff; font-size:30px;line-height:50px;width:500px;}
+											/*技能  作品*/
+.same{width:260px; height:520px;}
+.same p{color:#fff;font-size:40px; text-align:center;margin-top:15px;}
+.same #u1{width:280px; margin:60px auto;}
+.same #u1 li{width:280px; height:60px;line-height:60px;margin-top:20px;margin-left:-10px; text-align:center; list-style-type:none;}
+.same #u1 li a{color:#fff;font-size:25px; display:block;}
+.litem:hover{box-shadow:2px 2px 5px #000; background:rgba(255,102,0,0.8); }
+.litem2:hover{box-shadow:2px 2px 5px #000; background:rgba(255,51,51,0.8); }
+
+											/*联系方式*/
+.fourth .tit{width:200px; height:60px;margin:60px auto 10px; font-size:28px;}
+.fourth .lin{width: 200px; height: 40px; margin:0 auto;font-size:18px;}
+.fourth .tel{width: 200px; height: 40px; margin:0px auto;font-size:18px;}				
+.fourth p{color:#fff;}											
+
+
+											
+
+.square{width:200px;height:200px;margin:20px auto; }
+.square p{font-size:40px; line-height:100px;text-align:center;color:rgba(0,0,0,0.8);}	
+.con:hover{ box-shadow:3px 3px 10px #000;}
